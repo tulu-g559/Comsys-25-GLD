@@ -6,9 +6,9 @@
 
 ### 👨‍💻 Team Info:
 
-- **Team Name:** **_God Level Devs_**
-- **Members:** Arnab Ghosh, Ayon Paul
-- **Institute:** Dr. B. C. Roy Engineering College, Durgapur
+- **Team Name:** **_`God Level Devs`_**
+- **Members:** `Arnab Ghosh, Ayon Paul`
+- **Institute:** `Dr. B. C. Roy Engineering College, Durgapur`
 
 🧠 Problem Summary
 ------------------
@@ -17,7 +17,47 @@ The COMSYS 2025 challenge involved two computer vision tasks under visually adve
 
 *   **Task A: Gender Classification** — Classify face images as male or female with fairness and robustness.
 *   **Task B: Face Verification** — Verify the identity of distorted face images by comparing them with clean reference faces.
+
     
+Steps to run the solution
+-------------
+
+### ✅ **Task A: Gender Classification**
+
+1.  **Open the notebook**: `Comsys_TaskA.ipynb`
+    
+2.  **Mount Google Drive** and unzip dataset:
+    
+    *   Ensure `Comys_Hackathon5.zip` is present in your Drive
+        
+3.  **Run all cells** to:
+    
+    *   Load data with transforms
+    *   Train ResNet50 with weighted loss
+    *   Evaluate metrics (Accuracy, Precision, Recall, F1)
+        
+4.  **To test manually**:
+    
+    *   Upload any face image and the model will predict gender
+        
+
+### ✅ Task B: Face Matching (Verification under Distortion)
+
+1.  **Open the notebook**: Comsys\_TaskB.ipynb
+2.  **Mount Google Drive** and unzip dataset
+3.  **Load InsightFace** `(buffalo_l)` for face embeddings
+4.  **Build identity gallery** from `train/` (clean images)
+5.  **Run matching shell**:
+    *   Compares distorted `val/` images to gallery using cosine similarity
+    *   Outputs predictions and computes **Accuracy, Precision, Recall, F1 Score**
+6.  **Optionally test any image pair manually** by setting paths
+    
+
+### ⚠️ Notes
+
+*   Recommended to run in **Google Colab (with GPU)**
+*   Use paths like `/content/drive/MyDrive/...` throughout
+
 
 
 ✅ Our Approach
