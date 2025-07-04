@@ -80,10 +80,10 @@ The COMSYS 2025 challenge involved two computer vision tasks under visually adve
 
 ```
 📊 Final Evaluation — Task B (Distorted Face Matching):
-✅ Accuracy  : ~91%
+✅ Accuracy  : ~91.46%
 🎯 Precision : 100%
-📈 Recall    : ~91%
-🏆 F1 Score  : ~95%
+📈 Recall    : ~91.46%
+🏆 F1 Score  : ~95.54%
 ```
 
 ⚙️ Innovations & Strengths
