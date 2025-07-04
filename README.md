@@ -36,7 +36,7 @@ The COMSYS 2025 challenge involved two computer vision tasks under visually adve
 ### Pretrained model- RestNet50:
 **Architecture:**
 
-![image](https://github.com/user-attachments/assets/9b849999-7bac-42b1-91fe-ed536cc20a65)
+![image](https://github.com/user-attachments/assets/1580d267-0dfe-46cd-a123-53ffd1b9a61d)
 
 ### **Weight**: [Click Here](https://drive.google.com/file/d/1HoK3uXRvtS9YiedMPxooO8p-rT7YcTIP/view?usp=drive_link)
 
@@ -72,11 +72,9 @@ The COMSYS 2025 challenge involved two computer vision tasks under visually adve
 ### Pretrained model:
 **Architecture:**
 
-![image](https://github.com/user-attachments/assets/d5857ea8-d688-4183-b648-faf7e7fd1154)
+![image](https://github.com/user-attachments/assets/59c8c611-b17e-4b0c-bc2c-5e0aa7061892)
 
-**Weight**: We used the buffalo_l pretrained model from InsightFace, which loads weights internally via the FaceAnalysis API and does not require manual downloading or storage.
-
-#### **Note:** Trained on pretrained model `InsightFace`, hence no metrics required for Training.
+### **Weight**: We used the buffalo_l pretrained model from InsightFace, which loads weights internally via the FaceAnalysis API and does not require manual downloading or storage.
 
 📊 Evaluation Results:
 
